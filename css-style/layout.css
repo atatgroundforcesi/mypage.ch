@@ -1,0 +1,37 @@
+/*style for all divs*/
+.alldiv{
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3em;
+    border-radius: 0.5em;
+}
+/*style for top div*/
+.top{
+    background-color: lightblue;
+}
+    .top-men{
+        float: left; 
+    }
+        .top-men-li{
+            list-style: none;
+            display: inline;
+        }
+        .top-men-a{
+            margin-left: 3em;
+            padding: 1em;
+            text-decoration: none;
+        }
+            #top-men-a-home{
+                margin-left: 0em;
+            }
+            .top-men-a:hover{
+                background-color: grey;
+                border-radius: 1em;
+                color: red;
+            }
+
+/*style for main-content*/
+.main-content{
+    background-color: beige;
+}
